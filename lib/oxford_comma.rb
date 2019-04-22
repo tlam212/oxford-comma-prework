@@ -1,6 +1,6 @@
 def oxford_comma(array)
 if array.length > 3 
-  array[0]
-elsif array.length
-puts 
+  array.join(' and ')
+elsif array.length > 3
+puts array[0..-2].join(', ') + 
 end
