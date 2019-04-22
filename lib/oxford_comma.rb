@@ -1,4 +1,6 @@
 def oxford_comma(array)
 if array.length < 3
-  puts array
+  puts array.join(' and ')
+elsif
+puts 
 end
